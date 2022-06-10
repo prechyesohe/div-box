@@ -1,0 +1,162 @@
+@import url(style-for-post.css);
+@import url(susbribe.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    color:darkblue;
+    Padding:3px;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+
+}
+header ul li{ 
+    margin: 20px; 
+     
+}
+.continue {
+    border: 2px solid rgb(116, 109, 109);
+    background-color: rgb(21, 68, 197);
+    color:white;
+    margin:20px;
+}
+ .btn.btn_subscribe{
+border: 4px solid #da480f;
+color: #f8430c;
+
+ }
+
+.picture div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(14, 14, 146);
+    border: 1px solid rgb(226, 218, 218); 
+    flex-wrap: wrap;  
+}
+
+.picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 4px;
+    flex-wrap: wrap;
+ 
+}
+
+.picture2 div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(232, 241, 238);
+    border: 1px solid rgb(226, 218, 218);
+    margin: 1px;
+    flex-wrap: wrap;
+}
+
+.picture2 {
+    display:grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-auto-rows: minmax(30px, auto);
+    gap:3px;
+    flex-wrap: wrap;
+    
+}
+body{
+    background-color:rgb(232, 241, 238);
+    text-align: justify;
+}
+
+.about{
+    color:saddlebrown;
+    text-align: justify;
+}
+
+footer {
+
+    text-align: center;
+}
+
+@media (max-width:576px) {
+
+    header {
+        display: flex;
+        
+    }
+    
+    header h1{
+        color:darkblue;
+    }
+    
+    
+    header ul {
+        
+        list-style: none;
+        
+    
+    }
+    header ul li{ 
+        margin: 20px;  
+    }
+    .continue {
+        border: 2px solid rgb(116, 109, 109);
+        background-color: rgb(21, 68, 197);
+        color:white;
+        margin:20px;
+    }
+    .btn.btn_checkout{
+        border: 4px solid #da480f;
+        color: #f8430c;
+        
+         }
+    
+    .picture div {
+        border-radius: 39px;
+        padding: 10px;
+        background-color: rgb(14, 14, 146);
+        border: 1px solid rgb(226, 218, 218);    
+    }
+    
+    .picture{
+        display: flex;
+        flex-wrap: wrap;
+        
+     
+    }
+    
+    .picture2 div {
+        border-radius: 5px;
+        padding: 10px;
+        background-color: rgb(232, 241, 238);
+        border: 1px solid rgb(226, 218, 218);
+        margin: 1px;
+    }
+    
+    .picture2 {
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+    body{
+        background-color:rgb(232, 241, 238);
+    }
+    
+    .about{
+        color: lightcoral;
+    }
+    footer {
+    
+        text-align: center;
+    }
+}
+
+
+
+
